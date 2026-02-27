@@ -1,0 +1,53 @@
+window,
+dialog,
+popover,
+.titlebar,
+.titlebar:backdrop,
+button,
+entry,
+spinbutton,
+dropdown,
+combobox,
+row:selected,
+row:selected:backdrop,
+toolbar {
+  border-radius: 6px;
+}
+
+row,
+list row,
+.list row {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.card {
+  border-radius: 6px;
+}
+
+.preferences-group {
+  border-radius: 6px;
+}
+
+frame,
+.frame {
+  border-radius: 6px;
+}
+
+.nautilus-list-item:selected {
+  border-radius: 6px;
+}
+
+.nautilus-list-item:selected {
+  border-radius: 6px;
+}
+
+.nautilus-grid-view gridview>child:selected,
+.nautilus-grid-view gridview>child:selected:backdrop {
+  border-radius: 6px;
+}
+
+.nautilus-grid-view gridview>child:selected>*,
+.nautilus-grid-view gridview>child:selected:backdrop>* {
+  border-radius: 6px;
+}

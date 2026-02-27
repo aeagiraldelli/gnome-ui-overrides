@@ -1,0 +1,105 @@
+.overview-tile,
+.dash-background {
+  border-radius: 6px;
+}
+
+.dash-background {
+  padding: 4px;
+}
+
+.overview-icon {
+  border-radius: 6px;
+}
+
+.quick-settings {
+  border-radius: 6px;
+}
+
+.quick-settings .quick-toggle,
+.quick-settings .quick-menu-toggle {
+  border-radius: 6px;
+}
+
+.quick-settings .quick-toggle-arrow,
+.quick-settings .quick-menu-toggle .quick-toggle-arrow {
+  border-radius: 6px;
+}
+
+.quick-settings .quick-menu-toggle button:last-child,
+.quick-settings .quick-menu-toggle .button:last-child {
+  border-radius: 6px;
+}
+
+.quick-settings .linked,
+.quick-settings .linked>StButton,
+.quick-settings .linked>.button,
+.quick-settings .linked>button {
+  border-radius: 6px;
+}
+
+.quick-settings .linked>StButton:first-child,
+.quick-settings .linked>.button:first-child,
+.quick-settings .linked>button:first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.quick-settings .linked>StButton:last-child,
+.quick-settings .linked>.button:last-child,
+.quick-settings .linked>button:last-child {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.quick-settings .quick-toggle-arrow,
+.quick-settings .quick-toggle-arrow-button,
+.quick-settings .quick-toggle-arrow-icon {
+  border-radius: 6px;
+}
+
+
+.button {
+  border-radius: 6px;
+  font-weight: bold;
+  transition: border-width 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.popup-sub-menu .popup-menu-item,
+.popup-menu-item {
+  border-radius: 6px;
+}
+
+#LookingGlassExtensions .lg-extension,
+#LookingGlassWindows .lg-window,
+.calendar,
+.datemenu-today-button,
+.quick-toggle-menu,
+.message,
+.events-button,
+.world-clocks-button,
+.weather-button {
+  border-radius: 6px;
+}
+
+.unlock-dialog .login-dialog-prompt-entry,
+.login-dialog .login-dialog-prompt-entry,
+.app-folder-dialog .folder-name-container .folder-name-entry,
+.search-entry,
+.lg-dialog StEntry,
+StEntry {
+  border-radius: 6px;
+}
+
+.notification-button,
+.message .message-header .message-expand-button,
+.message .message-header .message-close-button {
+  border-radius: 6px;
+}
+
+.modal-dialog .modal-dialog-button-box .modal-dialog-button {
+  border-radius: 6px;
+}
