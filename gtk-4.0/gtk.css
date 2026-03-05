@@ -11,43 +11,43 @@ combobox,
 row:selected,
 row:selected:backdrop,
 toolbar {
-  border-radius: 6px;
+    border-radius: 7px;
 }
 
 row,
 list row,
 .list row {
-  padding-top: 4px;
-  padding-bottom: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 .card {
-  border-radius: 6px;
+    border-radius: 7px;
 }
 
 .preferences-group {
-  border-radius: 6px;
+    border-radius: 7px;
 }
 
 frame,
 .frame {
-  border-radius: 6px;
+    border-radius: 7px;
 }
 
 .nautilus-list-item:selected {
-  border-radius: 6px;
+    border-radius: 7px;
 }
 
 .nautilus-list-item:selected {
-  border-radius: 6px;
+    border-radius: 7px;
 }
 
 .nautilus-grid-view gridview>child:selected,
 .nautilus-grid-view gridview>child:selected:backdrop {
-  border-radius: 6px;
+    border-radius: 7px;
 }
 
 .nautilus-grid-view gridview>child:selected>*,
 .nautilus-grid-view gridview>child:selected:backdrop>* {
-  border-radius: 6px;
+    border-radius: 7px;
 }
